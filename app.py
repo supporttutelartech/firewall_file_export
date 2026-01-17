@@ -7,6 +7,7 @@ from palo_rule_added_export import (
     parse_duration,
     IST
 )
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -90,7 +91,9 @@ def download(filename):
     return send_from_directory(EXPORT_DIR, filename, as_attachment=True)
 
 
+
+
 if __name__ == "__main__":
-     port = int(os.environ.get("PORT", 5000))
-     app.run(host="0.0.0.0", port=port)
+    serve(app, host="0.0.0.0", port=5000)
+
     

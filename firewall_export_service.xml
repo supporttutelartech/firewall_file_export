@@ -1,0 +1,15 @@
+<service>
+  <id>PaloUIExport</id>
+  <name>Tutelar Tech Labs - Palo UI Export</name>
+  <description>Flask Application Running via Waitress</description>
+
+  <executable>C:\Users\saura\AppData\Local\Programs\Python\Python314\python.exe</executable>
+
+  <arguments>app.py</arguments>
+
+  <workingdirectory>D:\palo_ui</workingdirectory>
+
+  <log mode="roll"></log>
+
+  <onfailure action="restart" delay="10 sec"/>
+</service>

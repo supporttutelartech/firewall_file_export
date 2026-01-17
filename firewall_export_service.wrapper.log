@@ -1,0 +1,64 @@
+2026-01-17 10:51:59,604 DEBUG - Starting WinSW in console mode
+2026-01-17 10:51:59,643 INFO  - Installing service 'Tutelar Tech Labs - Firewall Export Service (TutelarFirewallExport)'...
+2026-01-17 10:51:59,718 INFO  - Service 'Tutelar Tech Labs - Firewall Export Service (TutelarFirewallExport)' was installed successfully.
+2026-01-17 10:52:08,862 DEBUG - Starting WinSW in console mode
+2026-01-17 10:52:08,901 INFO  - Starting service 'Tutelar Tech Labs - Firewall Export Service (TutelarFirewallExport)'...
+2026-01-17 10:52:09,527 DEBUG - Starting WinSW in service mode
+2026-01-17 10:52:09,565 INFO  - Service 'Tutelar Tech Labs - Firewall Export Service (TutelarFirewallExport)' started successfully.
+2026-01-17 10:52:09,790 INFO  - Starting python app.py
+2026-01-17 10:52:09,830 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'python' with working directory 'C:\palo_ui'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-01-17 11:00:43,843 DEBUG - Starting WinSW in console mode
+2026-01-17 11:00:43,875 INFO  - Uninstalling service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)'...
+2026-01-17 11:00:43,885 WARN  - Service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)' does not exist.
+2026-01-17 11:00:50,700 DEBUG - Starting WinSW in console mode
+2026-01-17 11:00:50,736 INFO  - Installing service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)'...
+2026-01-17 11:00:50,799 INFO  - Service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)' was installed successfully.
+2026-01-17 11:01:06,552 DEBUG - Starting WinSW in console mode
+2026-01-17 11:01:06,591 INFO  - Starting service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)'...
+2026-01-17 11:01:07,253 DEBUG - Starting WinSW in service mode
+2026-01-17 11:01:07,306 INFO  - Service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)' started successfully.
+2026-01-17 11:01:07,556 INFO  - Starting python app.py
+2026-01-17 11:01:07,609 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'python' with working directory 'D:\palo_ui'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-01-17 11:05:03,716 DEBUG - Starting WinSW in service mode
+2026-01-17 11:05:03,893 INFO  - Starting python app.py
+2026-01-17 11:05:03,973 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'python' with working directory 'D:\palo_ui'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-01-17 11:11:05,873 DEBUG - Starting WinSW in console mode
+2026-01-17 11:11:10,208 DEBUG - Starting WinSW in console mode
+2026-01-17 11:11:10,247 INFO  - Uninstalling service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)'...
+2026-01-17 11:11:10,256 INFO  - Service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)' was uninstalled successfully.
+2026-01-17 11:11:25,702 DEBUG - Starting WinSW in console mode
+2026-01-17 11:11:28,402 DEBUG - Starting WinSW in console mode
+2026-01-17 11:11:28,441 INFO  - Installing service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)'...
+2026-01-17 11:11:28,481 INFO  - Service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)' was installed successfully.
+2026-01-17 11:11:34,429 DEBUG - Starting WinSW in console mode
+2026-01-17 11:11:36,770 DEBUG - Starting WinSW in console mode
+2026-01-17 11:11:36,814 INFO  - Starting service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)'...
+2026-01-17 11:11:37,449 DEBUG - Starting WinSW in service mode
+2026-01-17 11:11:37,543 INFO  - Service 'Tutelar Tech Labs - Palo UI Export (PaloUIExport)' started successfully.
+2026-01-17 11:11:37,771 INFO  - Starting C:\Users\saura\AppData\Local\Programs\Python\Python314\python.exe app.py
+2026-01-17 11:11:37,837 INFO  - Started process 16288
+2026-01-17 11:11:37,872 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
