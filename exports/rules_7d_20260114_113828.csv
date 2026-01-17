@@ -1,5 +1,0 @@
-name,from_zone,to_zone,source,destination,application,service,action,log_start,log_end,added_time
-tester-8945,any,any,any,any,any,application-default,allow,no,yes,2026/01/12 11:14:58
-facebook-test123,any,any,any,any,any,application-default,allow,no,yes,2026/01/10 16:45:30
-test-rule-123,any,any,any,any,any,application-default,allow,no,yes,2026/01/10 16:11:30
-API-CREATED-TEST,any,any,any,any,any,application-default,allow,no,yes,2026/01/10 10:40:43

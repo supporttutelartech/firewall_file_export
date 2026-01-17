@@ -1,2 +1,0 @@
-name,from_zone,to_zone,source,destination,application,service,action,log_start,log_end,added_time
-tester-8945,any,any,any,any,any,application-default,allow,no,yes,2026/01/12 11:14:58

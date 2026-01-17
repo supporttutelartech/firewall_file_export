@@ -3,11 +3,11 @@
   <name>Tutelar Tech Labs - Palo UI Export</name>
   <description>Flask Application Running via Waitress</description>
 
-  <executable>C:\Users\saura\AppData\Local\Programs\Python\Python314\python.exe</executable>
+  <executable>where is your python using command where python and  eg -> C:\Users\saura\Local\Programs\Python\python.exe</executable>
 
   <arguments>app.py</arguments>
 
-  <workingdirectory>D:\palo_ui</workingdirectory>
+  <workingdirectory>Enter your working directory example -> D:\palo_ui</workingdirectory>
 
   <log mode="roll"></log>
 
